@@ -370,10 +370,7 @@ class App(Frame):
 def main():
     root = Tk()
     root.title("爬虫4------Margular制作")
-    try:
-        root.iconbitmap("spider.ico")
-    except:
-        pass
+    #root.iconbitmap("spider.ico")
     root.resizable(False,False)
     app1 = App(mw=root)
     app1.mainloop()
